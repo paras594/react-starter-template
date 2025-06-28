@@ -21,6 +21,9 @@ npx degit paras594/react-starter-template <YOUR_PROJECT_NAME>
 
 cd <YOUR_PROJECT_NAME>
 
+# get rid of .gitkeep files 
+npx del-cli del **/.gitkeep
+
 # initialize git
 git init
 
