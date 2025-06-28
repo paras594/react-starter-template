@@ -17,11 +17,15 @@ Use **Yarn** for package management.
 Run the command to clone the repo without git history.
 ```sh
 # Run the command to clone the repo without git history.
-npx degit paras594/react-starter-template your-project-name
+npx degit paras594/react-starter-template <YOUR_PROJECT_NAME>
 
-cd your-project-name
+cd <YOUR_PROJECT_NAME>
 
+# initialize git
 git init
+
+# connect to github
+git remote add origin <GIT_REPO_URL>
 ```
 
 
