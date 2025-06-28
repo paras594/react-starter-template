@@ -1,31 +1,13 @@
-# .github/dependabot.yml
 version: 2
 updates:
-  # Update all dependencies (both dependencies and devDependencies)
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
-      day: "monday"
       time: "09:00"
-    open-pull-requests-limit: 3
+    open-pull-requests-limit: 5
     commit-message:
       prefix: "deps"
       include: "scope"
     labels:
-      - "dependencies"
-
-  # Security updates (daily check)
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-    open-pull-requests-limit: 3
-    allow:
-      - update-type: "security"
-    commit-message:
-      prefix: "security"
-      include: "scope"
-    labels:
-      - "security"
       - "dependencies"
