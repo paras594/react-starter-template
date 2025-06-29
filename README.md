@@ -1,4 +1,4 @@
-# React + Vite Starter Template
+# A React Starter Template for the Impatient Developer
 
 This template provides a boilerplate setup to get React working in Vite with HMR.
 
