@@ -11,3 +11,18 @@ updates:
       include: "scope"
     labels:
       - "dependencies"
+
+  # Security updates (daily check)
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 3
+    allow:
+      - update-type: "security"
+    commit-message:
+      prefix: "security"
+      include: "scope"
+    labels:
+      - "security"
+      - "dependencies"
