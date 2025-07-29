@@ -11,7 +11,7 @@ Use **Yarn** for package management.
 - **Tanstack Router** for file based routing
 - **Tanstack Query** for data fetching and caching
 - **PWA** support enabled by default
-- Basic Auth Provider that you can update as per requirement
+- Basic Auth Provider + Auth Routes setup that you can update as per requirement
 
 ### Usage
 Run the command to clone the repo without git history.
