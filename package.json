@@ -14,7 +14,9 @@
     "preview": "vite preview",
     "lint": "biome lint ./src",
     "format": "biome check --write ./src",
-    "format:ci": "biome ci"
+    "format:ci": "biome ci",
+    "install:ci": "yarn install --frozen-lockfile",
+    "install:prod": "yarn install --frozen-lockfile --non-interactive --production"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",

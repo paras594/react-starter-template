@@ -1,9 +1,4 @@
-import {
-  createContext,
-  PropsWithChildren,
-  useContext,
-  useState,
-} from "react";
+import { createContext, PropsWithChildren, useContext, useState } from "react";
 
 export type AuthContextType = {
   user: object | null;
@@ -12,12 +7,12 @@ export type AuthContextType = {
 
 const AuthContext = createContext<AuthContextType>({
   user: null,
-  loading: true,
+  loading: false,
 });
 
 export const AuthProvider = ({ children }: PropsWithChildren) => {
   const [user] = useState<object | null>(null);
-  const [loading] = useState(true);
+  const [loading] = useState(false);
 
   return (
     <AuthContext.Provider value={{ user, loading }}>

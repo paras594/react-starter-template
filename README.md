@@ -37,8 +37,11 @@ git remote add origin <GIT_REPO_URL>
 # install dependencies during development
 yarn
 
+# or
+yarn install:ci
+
 # install dependencies in production 
-yarn install --frozen-lockfile --non-interactive --production
+yarn install:prod
 
 # start dev server on port 3000
 yarn dev
