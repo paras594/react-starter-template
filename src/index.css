@@ -1,2 +1,19 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+.tsqd-open-btn, .TanStackRouterDevtools, .tsqd-parent-container {
+  display: none !important;
+}
+
+html, body{
+  height: 100%;
+  @apply bg-base-100;
+  @apply dark:bg-base-300;
+}
+
+.no-scrollbar {
+  scrollbar-width: none; /* Firefox */
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
