@@ -12,6 +12,7 @@ Use **Yarn** for package management.
 - **Tanstack Query** for data fetching and caching
 - **PWA** support enabled by default
 - Basic Auth Provider + Auth Routes setup that you can update as per requirement
+- [React Icons](https://react-icons.github.io/react-icons/)
 
 ### Usage
 Run the command to clone the repo without git history.
@@ -40,11 +41,14 @@ yarn
 # or
 yarn install:ci
 
-# install dependencies in production 
+# install dependencies in production environment
 yarn install:prod
 
 # start dev server on port 3000
 yarn dev
+
+# start dev server and host it on local network
+yarn dev:host
 
 # format files
 yarn format
