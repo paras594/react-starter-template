@@ -13,6 +13,8 @@ Use **Yarn** for package management.
 - **PWA** support enabled by default
 - Basic Auth Provider + Auth Routes setup that you can update as per requirement
 - [React Icons](https://react-icons.github.io/react-icons/)
+- [React Hot Toast](https://react-hot-toast.com/docs)
+- Relative imports (`src/`)
 
 ### Usage
 Run the command to clone the repo without git history.
