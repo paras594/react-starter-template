@@ -27,6 +27,7 @@
     "@tanstack/react-router-devtools": "^1.122.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.6.0",
     "react-icons": "^5.5.0",
     "tailwindcss": "^4.1.11"
   },
