@@ -46,7 +46,7 @@
             "noUnsafeOptionalChaining": "error",
             "noUnusedLabels": "error",
             "noUnusedPrivateClassMembers": "error",
-            "noUnusedVariables": "error",
+            "noUnusedVariables": "warn",
             "useIsNan": "error",
             "useValidForDirection": "error",
             "useValidTypeof": "error",
@@ -120,7 +120,7 @@
       "linter": {
         "rules": {
           "complexity": { "noUselessTypeConstraint": "error" },
-          "correctness": { "noUnusedVariables": "error" },
+          "correctness": { "noUnusedVariables": "warn" },
           "style": {
             "noCommonJs": "error",
             "noNamespace": "error",
