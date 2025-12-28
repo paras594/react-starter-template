@@ -1,6 +1,20 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+/* 
+
+theme customization
+
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --color-base-100: #F4F7FF;
+  --color-base-200: #fffFFF;
+  --color-primary: #6f7bf7;
+}
+
+*/
+
 .tsqd-open-btn, .TanStackRouterDevtools, .tsqd-parent-container {
   display: none !important;
 }

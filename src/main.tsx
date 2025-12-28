@@ -8,17 +8,14 @@ import "./index.css";
 
 // Import the generated route tree
 import { routeTree } from "./routeTree.gen";
+import { FullscreenLoader } from "./shared/components/fullscreen-loader/fullscreen-loader";
 
 export const queryClient = new QueryClient();
 
 // Create a new router instance
 export const router = createRouter({
   routeTree,
-  defaultPendingComponent: () => (
-    <div className={`p-2 text-2xl font-bold`}>
-      <span>Loading...</span>
-    </div>
-  ),
+  defaultPendingComponent: () => <FullscreenLoader />,
   defaultErrorComponent: ({ error }) => (
     <div className={`p-2 text-2xl font-bold text-red-500`}>
       <span>Error: {error.message}</span>
@@ -45,5 +42,5 @@ createRoot(document.getElementById("root")!).render(
     <QueryClientProvider client={queryClient}>
       <App />
     </QueryClientProvider>
-  </StrictMode>,
+  </StrictMode>
 );

@@ -12,6 +12,8 @@ Use **Yarn** for package management.
 - **Tanstack Query** for data fetching and caching
 - **PWA** support enabled by default
 - Basic Auth Provider + Auth Routes setup that you can update as per requirement
+
+**Extras:**
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [React Hot Toast](https://react-hot-toast.com/docs)
 - Relative imports (`src/`)
