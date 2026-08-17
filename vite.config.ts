@@ -3,6 +3,7 @@ import { tanstackRouter } from "@tanstack/router-plugin/vite";
 import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
+import tsconfigPaths from "vite-tsconfig-paths";
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -13,6 +14,7 @@ export default defineConfig({
     }),
     tailwindcss(),
     react(),
+    tsconfigPaths(),
     VitePWA({
       registerType: "autoUpdate",
       injectRegister: false,
@@ -25,7 +27,8 @@ export default defineConfig({
       manifest: {
         name: "react-starter-template",
         short_name: "react-starter-template",
-        description: "Use degit to clone this template. Do git init, install deps and start working on your project.",
+        description:
+          "Use degit to clone this template. Do git init, install deps and start working on your project.",
         theme_color: "#ffffff",
       },
 
