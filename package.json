@@ -41,7 +41,7 @@
     "daisyui": "^5.0.43",
     "globals": "^15.14.0",
     "typescript": "~5.7.2",
-    "vite": "^6.4.1",
+    "vite": "^6.4.3",
     "vite-plugin-pwa": "^0.21.1",
     "vite-tsconfig-paths": "^6.1.1",
     "workbox-core": "^7.3.0",
